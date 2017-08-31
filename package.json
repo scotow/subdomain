@@ -1,0 +1,28 @@
+{
+  "name": "subdomain",
+  "version": "1.0.0",
+  "description": "Create subdomain using OVH's API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scotow/subdomain.git"
+  },
+  "keywords": [
+    "ovh",
+    "api",
+    "domain",
+    "subdomain"
+  ],
+  "author": "Scotow",
+  "license": "SEE LICENSE IN LICENCE",
+  "bugs": {
+    "url": "https://github.com/Scotow/subdomain/issues"
+  },
+  "homepage": "https://github.com/Scotow/subdomain#readme",
+  "dependencies": {
+    "ovh": "^2.0.1"
+  }
+}
