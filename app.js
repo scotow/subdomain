@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // IP
 const publicIp = require('public-ip');
 
