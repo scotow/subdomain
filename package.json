@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "subdomain": "./app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Scotow/subdomain.git"
@@ -17,7 +20,7 @@
     "subdomain"
   ],
   "author": "Scotow",
-  "license": "SEE LICENSE IN LICENCE",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Scotow/subdomain/issues"
   },
@@ -25,5 +28,6 @@
   "dependencies": {
     "ovh": "^2.0.1",
     "public-ip": "^2.3.5"
-  }
+  },
+  "preferGlobal": true
 }
