@@ -1,6 +1,6 @@
 # subdomain
 
-A simple OVH's API wrapper to create subdomain(s).
+A simple OVH's API wrapper to list, create and delete subdomain(s) entry.
 
 ### How to install
 
