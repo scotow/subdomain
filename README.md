@@ -6,9 +6,10 @@ A simple OVH's API wrapper to create subdomain(s).
 
 `npm install -g https://github.com/Scotow/subdomain`
 
-### Usage
+### Example
 
-`node subdomain domain subdomain [subdomain ...]`
+`node subdomain -d google.com --ip=8.8.8.8 -a dns -r dev'`
+> Create the subdomain "dns" and make it targets to 8.8.8.8, delete subdomain "dev".
 
 ### Credentials
 
