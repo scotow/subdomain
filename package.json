@@ -27,7 +27,9 @@
   "homepage": "https://github.com/Scotow/subdomain#readme",
   "dependencies": {
     "ovh": "^2.0.1",
-    "public-ip": "^2.3.5"
+    "public-ip": "^2.3.5",
+    "underscore": "^1.8.3",
+    "yargs": "^8.0.2"
   },
   "preferGlobal": true
 }
