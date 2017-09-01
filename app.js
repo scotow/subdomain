@@ -67,7 +67,7 @@ function prepareKey(key) {
 
 const argv = require('yargs')
     .usage('Usage: $0 <command> [options]')
-    .example('$0 -a random --ip=8.8.8.8', 'count the lines in the given file')
+    .example('$0 -d google.com --ip=8.8.8.8 -a dns -r dev', 'Create the subdomain "dns" and make it target 8.8.8.8, delete subdomain "dev".')
 	.option('d', {
 		type: 'string',
 		alias: 'domain',
