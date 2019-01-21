@@ -71,7 +71,7 @@ function extractKey(key) {
 
 function prepareKey(key) {
 	if(!key) return []; 				// Empty string.
-	if(_.isString(key)) return [key]; 	// Embeb in an array.
+	if(_.isString(key)) return [key]; 		// Embed in an array.
 	return _.compact(key);				// Remove falsly values.
 }
 
