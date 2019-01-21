@@ -8,7 +8,7 @@ A simple OVH's API wrapper to list, create and delete subdomain(s) entry.
 
 ### Example
 
-`subdomain -d google.com --ip=8.8.8.8 -a dns -r dev'`
+`subdomain -d google.com --ip=8.8.8.8 -a dns -r dev`
 > Create the subdomain "dns" and make it targets to 8.8.8.8, delete subdomain "dev".
 
 ### Credentials
